@@ -96,18 +96,18 @@ const AboutUS = () => {
                   looked up one of the more obscure Latin words, consectetur
                   cites of the word in classical literature.
                 </Text>
-                <Text>
+                {/* <Text>
                   The standard chunk of Lorem Ipsum used since the 1500s is
                   reproduced below for those interested. Sections 1.10.32 and
                   1.10.33 from "de Finibus Bonorum et Malorum
-                </Text>
+                </Text> */}
               </Box>
             </Box>
           </Flex>
           <Flex justifyContent={"flex-start"} mx={"-15px"} flexWrap={"wrap"}>
-            {AboutUSCardText.map((AboutUSCard) => {
+            {AboutUSCardText.map((AboutUSCard, index) => {
               return (
-                <Box width={{md: "33.33%", sm: "50%", base: "100%"}} px={"15px"} mb={"30px"}>
+                <Box key={index} width={{md: "33.33%", sm: "50%", base: "100%"}} px={"15px"} mb={"30px"}>
                   <AboutUsCard data={AboutUSCard} />
                 </Box>
               );

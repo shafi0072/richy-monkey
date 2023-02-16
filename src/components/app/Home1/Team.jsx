@@ -54,9 +54,9 @@ const Team = () => {
 
             <Box maxW={"770px"} width={"100%"} mx={"auto"} mt={"53px"}>
               <Flex alignItems={"flex-start"} mx={"-15px"} flexDirection={{md: "row",  base: "column"}}>
-                {TeamMembersInfo.map((TeamMembersCardInfo) => {
+                {TeamMembersInfo.map((TeamMembersCardInfo, index) => {
                   return (
-                    <Box width={{md: "50%", base: "100%"}} maxW={{md: "100%", base: "370px"}} mx={"auto"} px={"15px"} mb={"30px"}>
+                    <Box key={index} width={{md: "50%", base: "100%"}} maxW={{md: "100%", base: "370px"}} mx={"auto"} px={"15px"} mb={"30px"}>
                       <TeamMembersCard data={TeamMembersCardInfo} />
                     </Box>
                   );

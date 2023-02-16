@@ -26,9 +26,9 @@ const PriceCounter = () => {
     <>
       <Box>
         <Flex flexWrap={"wrap"} alignItems={"flex-start"} justifyContent={"space-between"}>
-          {PriceCounterText.map((PriceCounter) => {
+          {PriceCounterText.map((PriceCounter, index) => {
             return (
-              <Box width={{md: "25%", base: "50%"}} pb={"30px"}>
+              <Box key={index}width={{md: "25%", base: "50%"}} pb={"30px"}>
                 <PriceCounterContent data={PriceCounter} />
               </Box>
             );

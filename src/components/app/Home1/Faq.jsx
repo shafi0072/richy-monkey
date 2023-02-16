@@ -60,9 +60,10 @@ const Faq = () => {
           </Box>
 
           <Box maxW={"770px"} width={"100%"} mx={"auto"} mt={"57px"}>
-            {faqQA.map((faqQuestionsAswers) => {
+            {faqQA.map((faqQuestionsAswers,index) => {
               return (
                 <Box
+                key={index}
                   mb={"10px"}
                   bg={"rgba(255, 255, 255, 0.05)"}
                   backdropFilter={"blur(5px)"}
