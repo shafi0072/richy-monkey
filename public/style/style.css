@@ -1,0 +1,123 @@
+.btn-icon-hov{
+  position: "relative";
+  overflow: hidden;
+}
+.btn-icon-hov::before{
+  content: url(../images/icon/btn-icon.svg);
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.btn-icon-hov::after{
+  content: url(../images/icon/btn-icon.svg);
+  position: absolute;
+  transform: rotate(180deg);
+  right: 10px;
+  bottom: 10px;
+  display: none;
+}
+.btn-icon-hov:hover::after{
+  animation: btnIcon 0.5s linear;
+  display: block;
+}
+@keyframes btnIcon {
+  0% { right: -20px; }
+  100% { right: 10px }
+}
+.loader {
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+}
+.animetionUp1 {
+    -webkit-animation: animetionUp1 2s linear infinite;
+    animation: animetionUp1 2s linear infinite;
+}
+@keyframes animetionUp1 {
+  100%, 0% { top: 0%; }
+  50% { top: 7%; }
+}
+.animetionUp2 {
+  -webkit-animation: animetionUp2 4s linear infinite;
+  animation: animetionUp2 4s linear infinite;
+}
+@keyframes animetionUp2 {
+  100%, 0% { bottom: 5%; }
+  50% { bottom: -10%; }
+}
+.animetionDown1 {
+    -webkit-animation: animetionDown1 4s linear infinite;
+    animation: animetionDown1 4s linear infinite;
+}
+@keyframes animetionDown1 {
+    100%, 0% { top: 5%; }
+    50% { top: -10%; }
+}
+.animetionDown2 {
+    -webkit-animation: animetionDown2 2s linear infinite;
+    animation: animetionDown2 2s linear infinite;
+}
+@keyframes animetionDown2 {
+    100%, 0% { bottom: -40px; }
+    50% { bottom: -50px; }
+}
+
+.fadeOut {
+  animation: fadeOut 3s linear;
+  opacity: 0;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; z-index: 1111; }
+  95% { opacity: 1; z-index: 1111; }
+  100% { opacity: 0; z-index: 1; }
+}
+
+.fadeOut1 {
+    animation: fadeOut1 2s linear infinite;
+    height: 0px;
+  }
+  
+  @keyframes fadeOut1 {
+    0% { height: auto; }
+    15% { height: 0px; }
+  }
+.fadeOut2 {
+    animation: fadeOut2 1s linear infinite;
+    height: 0px;
+  }
+  
+  @keyframes fadeOut2 {
+    30% {  height: auto; }
+    45% { height: 0px; }
+  }
+.fadeOut3 {
+    animation: fadeOut3 1s linear infinite;
+    height: 0px;
+  }
+  
+  @keyframes fadeOut3 {
+    60% { height: auto; }
+    80% { height: 0px; }
+  }
+/*.fadeOut4 {
+    animation: fadeOut4 2s linear infinite;
+    opacity: 0;
+    -webkit-animation: fadeIn 4s;
+    -moz-animation: fadeIn 4s;
+    -o-animation: fadeIn 4s;
+    -ms-animation: fadeIn 4s;
+    animation-duration: 3s;
+    animation-delay: 3.1s; 
+  }
+  
+  @keyframes fadeOut4 {
+    76% { opacity: 1; visibility: visible; height: auto; }
+    24% { opacity: 1; }
+    95% { opacity: 0; visibility: none; height: 0px; }
+  }
+  */
+  
