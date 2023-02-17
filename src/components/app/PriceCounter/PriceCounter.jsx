@@ -12,12 +12,12 @@ const PriceCounterText = [
       text: "Rarities"
     },
     {
-      heading: "0.22",
-      text: "Floor Price (ETH)"
+      heading: "200",
+      text: "Floor Price (USD)"
     },
     {
       heading: "25.5K",
-      text: "Volume Traded (ETH)"
+      text: "Volume Traded (USD)"
     },
   ]
 

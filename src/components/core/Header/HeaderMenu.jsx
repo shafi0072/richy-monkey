@@ -24,10 +24,10 @@ const HeaderMenu = () => {
           gap={{md: "auto", base: "15px"}}
         >
           <Link href="http://localhost:3000/" _hover={{textDecoration: "none", opacity: "0.7"}}>Home</Link>
-          <Link href="#About" _hover={{textDecoration: "none", opacity: "0.7"}}>About</Link>
-          <Link href="#Roadmap" _hover={{textDecoration: "none", opacity: "0.7"}}>Roadmap</Link>
-          <Link href="#Team" _hover={{textDecoration: "none", opacity: "0.7"}}>Team</Link>
-          <Link href="#FAQ" _hover={{textDecoration: "none", opacity: "0.7"}}>FAQ</Link>
+          <Link href="#About" _hover={{textDecoration: "none", opacity: "0.7"}}>Tranding</Link>
+          <Link href="#Roadmap" _hover={{textDecoration: "none", opacity: "0.7"}}>Popular</Link>
+          <Link href="#Team" _hover={{textDecoration: "none", opacity: "0.7"}}>Category</Link>
+          
         </Flex>
       </Box>
     </>

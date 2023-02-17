@@ -24,8 +24,8 @@ const HeaderBtn = () => {
           _hover={{textDecoration: "none", bg: "#5865F2" }}
           transition={"0.5s"}
         >
-          <Image src="images/icon/dis-logo.png" alt="icon" />
-          Join
+          {/* <Image src="images/icon/dis-logo.png" alt="icon" /> */}
+          Cart
         </Link>
         
         <ConnectModal/>

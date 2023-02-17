@@ -7,6 +7,7 @@ const H1Banner = () => {
     <>
       <Box
         bgImage="url('images/richy/BlackandYellow TypographyT-shirt(3).png')"
+        className="bgColor"
         bgPosition="center center"
         bgRepeat="no-repeat"
         backgroundSize={"800px"}
@@ -95,7 +96,7 @@ const H1Banner = () => {
                 fontFamily={"primary"}
                 textAlign={"center"}
               >
-                Price for whitelist: 0.15 ETH . Regular Price 300 USD
+                Price for whitelist: 100 USD . Regular Price 300 USD
               </Heading>
               <Heading
                 as="h4"
@@ -111,7 +112,7 @@ const H1Banner = () => {
                 fontFamily={"primary"}
                 textAlign={"center"}
               >
-                Max 5 NFTs per wallet
+                Only NFT t-shirts
               </Heading>
             </Box>
 

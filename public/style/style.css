@@ -3,13 +3,18 @@
   overflow: hidden;
 }
 .btn-icon-hov::before{
-  content: url(../images/icon/btn-icon.svg);
+ 
   position: absolute;
   left: 10px;
   top: 10px;
 }
+.bgColor{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.788)),url('/images/richy/BlackandYellow TypographyT-shirt(1).png')!important;
+  background-size: cover!important;
+  background-position: center center!important;
+}
 .btn-icon-hov::after{
-  content: url(../images/icon/btn-icon.svg);
+  
   position: absolute;
   transform: rotate(180deg);
   right: 10px;

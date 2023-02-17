@@ -39,8 +39,8 @@ const ConnectModal = () => {
           _focus={{ bg: "#E51041" }}
           transition={"0.5s"}
         >
-          <Image src="images/icon/wallet-icon.svg" alt="icon" />
-          Connect
+          
+          Sign In
         </Button>
 
         <Modal onClose={onClose} isOpen={isOpen}>
@@ -102,7 +102,7 @@ const ConnectModal = () => {
                   fontFamily={"primary"}
                   textTransform={"uppercase"}
                 >
-                  Connect Wallet
+                  Authentication
                 </Heading>
 
                 <Text
@@ -114,7 +114,7 @@ const ConnectModal = () => {
                   mb={"24px"}
                   fontFamily={"inter"}
                 >
-                  Please select a wallet to connect for start Minting your NFTs
+                  Please select a Process
                 </Text>
 
                 <Box>
@@ -139,12 +139,8 @@ const ConnectModal = () => {
                     _hover={{ bg: "rgba(255, 255, 255, 0.08)", opacity: "0.8" }}
                     _focus={{ bg: "rgba(255, 255, 255, 0.08)" }}
                   >
-                    <Image
-                      src="images/modal/metamask-logo.png"
-                      alt="img"
-                      mr={"23px"}
-                    />
-                    MetaMask
+                    
+                   Sign In
                     <ChevronRightIcon
                       position={"absolute"}
                       right={"25px"}
@@ -173,12 +169,8 @@ const ConnectModal = () => {
                     _hover={{ bg: "rgba(255, 255, 255, 0.08)", opacity: "0.8" }}
                     _focus={{ bg: "rgba(255, 255, 255, 0.08)" }}
                   >
-                    <Image
-                      src="images/modal/wallet-connect-logo.png"
-                      alt="img"
-                      mr={"23px"}
-                    />
-                    WalletConnect
+                   
+                    Sign Up
                     <ChevronRightIcon
                       position={"absolute"}
                       right={"25px"}
@@ -196,7 +188,7 @@ const ConnectModal = () => {
                   mt={"22px"}
                   fontFamily={"inter"}
                 >
-                  By connecting your wallet, you agree to our{" "}
+                  By Sign Up, you agree to our{" "}
                   <Link href="#" fontWeight={"500"} color={"#FFFFFF"}>
                     Terms of Service
                   </Link>{" "}
