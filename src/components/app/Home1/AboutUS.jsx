@@ -116,10 +116,10 @@ const AboutUS = () => {
                   trends. The brand is constantly pushing the boundaries of what
                   is possible in the world of fashion, and its designers are
                   always looking for new ways to create exciting and innovative
-                  designs. The brand's product line includes a wide variety of
+                  designs. The brands product line includes a wide variety of
                   clothing items, including t-shirts, jackets, pants, dresses,
                   and more. Each of these items is designed to be both
-                  functional and fashionable, and the brand's attention to
+                  functional and fashionable, and the brands attention to
                   detail and quality is evident in every piece. In addition to
                   its focus on fashion, Richy Monkey also takes pride in its
                   commitment to social and environmental responsibility. The
@@ -127,7 +127,7 @@ const AboutUS = () => {
                   practices, and is committed to reducing its environmental
                   footprint in any way possible. Overall, Richy Monkey is a
                   brand that offers a unique and exciting fashion experience to
-                  its customers. Whether you're looking for a new outfit for a
+                  its customers. Whether you are looking for a new outfit for a
                   night out or just want to add some fresh style to your
                   wardrobe, Richy Monkey is a great choice.
                 </Text>
